@@ -1,0 +1,19 @@
+current directory: /Users/firon/Documents/GitHub/rails-react-graphql-main/vendor/bundle/ruby/3.1.0/gems/debug-1.7.1/ext/debug
+/Users/firon/.rbenv/versions/3.1.1/bin/ruby -I /Users/firon/.rbenv/versions/3.1.1/lib/ruby/site_ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/firon/Documents/GitHub/rails-react-graphql-main/vendor/bundle/ruby/3.1.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230224-88536-8acdrx sitelibdir\=./.gem.20230224-88536-8acdrx clean
+
+current directory: /Users/firon/Documents/GitHub/rails-react-graphql-main/vendor/bundle/ruby/3.1.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230224-88536-8acdrx sitelibdir\=./.gem.20230224-88536-8acdrx
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/firon/Documents/GitHub/rails-react-graphql-main/vendor/bundle/ruby/3.1.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230224-88536-8acdrx sitelibdir\=./.gem.20230224-88536-8acdrx install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20230224-88536-8acdrx/debug
+
+current directory: /Users/firon/Documents/GitHub/rails-react-graphql-main/vendor/bundle/ruby/3.1.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230224-88536-8acdrx sitelibdir\=./.gem.20230224-88536-8acdrx clean
