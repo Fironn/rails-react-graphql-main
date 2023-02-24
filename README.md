@@ -1,4 +1,4 @@
-# README
+# Graphqlサンプル：TODOリスト
 
 参考サイト；https://zenn.dev/lilac/books/37bdf5d90b5f9b/viewer/9848e7
 https://railstutorial.jp/
