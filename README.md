@@ -6,11 +6,18 @@
 https://railstutorial.jp/
 
  ```bin/rails s```
+ 
  ```bundle install```
  
  ```cd frontend```
+ 
  ```yarn install```
+ 
  ```yarn start```
+ 
+ テストコード
+ 　
+ ```bundle exec rspec```
  
  ![localhost_3000_graphiql](https://user-images.githubusercontent.com/41132861/221134447-fbdb6828-f9c0-47bb-aa6f-988eb47d3ae5.png)
  
