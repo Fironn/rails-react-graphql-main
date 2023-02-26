@@ -9,5 +9,6 @@ module Types
 
     field :todos, resolver: Queries::Todos
     field :todo, resolver: Queries::Todo
+    field :todo_count, resolver: Queries::TodoCount
   end
 end

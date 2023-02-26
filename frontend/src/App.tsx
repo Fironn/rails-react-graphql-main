@@ -1,5 +1,6 @@
 import {
   useTodosQuery,
+  useTodo_CountQuery,
   useCreateTodoMutation,
   useDeleteTodoMutation,
   useUpdateTodoMutation,
@@ -9,14 +10,20 @@ import "./App.css";
 
 function App() {
   const { data: { todos = [] } = {} } = useTodosQuery();
-  const [createTodo] = useCreateTodoMutation({ refetchQueries: ["todos"] });
+  const { data: { todoCount } = {} } = useTodo_CountQuery();
+  const [createTodo] = useCreateTodoMutation({
+    refetchQueries: ["todos", "todo_count"],
+  });
   const [title, setTitle] = useState("");
-  const [deleteTodo] = useDeleteTodoMutation({ refetchQueries: ["todos"] });
+  const [deleteTodo] = useDeleteTodoMutation({
+    refetchQueries: ["todos", "todo_count"],
+  });
   const [updateTodo] = useUpdateTodoMutation();
 
   return (
     <div style={{ width: "600px", margin: "50px auto" }}>
       <h1>TODOリスト</h1>
+      <h3>やること：{todoCount} 個</h3>
       <div
         style={{
           display: "flex",

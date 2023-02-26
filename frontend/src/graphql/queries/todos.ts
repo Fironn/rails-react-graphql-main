@@ -5,7 +5,7 @@ export default gql`
     todos {
       id
       title
-      updated_at
+      updatedAt
     }
   }
 `;

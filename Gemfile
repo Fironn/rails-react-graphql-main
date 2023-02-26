@@ -51,3 +51,5 @@ group :development do
   gem 'graphiql-rails'
   gem 'sass-rails'
 end
+
+gem 'rspec-rails'
